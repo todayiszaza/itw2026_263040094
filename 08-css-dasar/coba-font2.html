@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coba CSS - Font Styling</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Redaction+70:wght@400;700&display=swap');
+
+    @font-face {
+      font-family: Redaction70;
+      src: url('fonts/Redaction70-Regular.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    h1 {
+      color: crimson;
+      font-size: 60px;
+      text-align: center;
+      font-family: "Redaction 70", sans-serif;
+      font-weight: 400;
+    }
+
+    p {
+      color: navy;
+      text-align: center;
+      font-size: 30px;
+      font-family: Lora, Arial, Helvetica, sans-serif;
+    }
+
+    .font-lobster {
+      font-family: Redaction70, arial, sans-serif;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>NewJeans</h1>
+
+  <p>NewJeans is a South Korean girl group that debuted in 2022. The group became widely recognized for its fresh musical style, catchy melodies, and unique visual identity. Their songs often combine elements of pop, R&B, and electronic music, creating a sound that feels both nostalgic and modern.</p>
+
+  <p class="font-lobster">Beyond their music, NewJeans is also known for its distinctive fashion and creative concepts. Their music videos, performances, and overall aesthetic have helped them build a strong presence in the global music industry. Their artistic identity continues to make them an interesting part of contemporary K-pop culture.</p>
+</body>
+
+</html>
